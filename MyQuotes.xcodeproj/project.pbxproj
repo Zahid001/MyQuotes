@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80BDF2F2190BE3E008B29C4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80BDF2E2190BE3E008B29C4 /* SettingsViewController.swift */; };
+		C82B5A6A218F362A005F288B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B5A69218F362A005F288B /* HomeViewController.swift */; };
+		C82B5A6C218F6169005F288B /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B5A6B218F6169005F288B /* FavoriteViewController.swift */; };
 		C83EC69F218EE9880068CD70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83EC69E218EE9880068CD70 /* AppDelegate.swift */; };
-		C83EC6A1218EE9880068CD70 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83EC6A0218EE9880068CD70 /* FirstViewController.swift */; };
-		C83EC6A3218EE9880068CD70 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83EC6A2218EE9880068CD70 /* SecondViewController.swift */; };
-		C83EC6A6218EE9880068CD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83EC6A4218EE9880068CD70 /* Main.storyboard */; };
+		C83EC6A6218EE9880068CD70 /* MyQuotes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83EC6A4218EE9880068CD70 /* MyQuotes.storyboard */; };
 		C83EC6A8218EE9890068CD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83EC6A7218EE9890068CD70 /* Assets.xcassets */; };
 		C83EC6AB218EE9890068CD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83EC6A9218EE9890068CD70 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C80BDF2E2190BE3E008B29C4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C82B5A69218F362A005F288B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C82B5A6B218F6169005F288B /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		C83EC69B218EE9880068CD70 /* MyQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83EC69E218EE9880068CD70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C83EC6A0218EE9880068CD70 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C83EC6A2218EE9880068CD70 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		C83EC6A5218EE9880068CD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C83EC6A5218EE9880068CD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyQuotes.storyboard; sourceTree = "<group>"; };
 		C83EC6A7218EE9890068CD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C83EC6AA218EE9890068CD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C83EC6AC218EE9890068CD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				C83EC69E218EE9880068CD70 /* AppDelegate.swift */,
-				C83EC6A0218EE9880068CD70 /* FirstViewController.swift */,
-				C83EC6A2218EE9880068CD70 /* SecondViewController.swift */,
-				C83EC6A4218EE9880068CD70 /* Main.storyboard */,
+				C83EC6A4218EE9880068CD70 /* MyQuotes.storyboard */,
 				C83EC6A7218EE9890068CD70 /* Assets.xcassets */,
 				C83EC6A9218EE9890068CD70 /* LaunchScreen.storyboard */,
 				C83EC6AC218EE9890068CD70 /* Info.plist */,
+				C82B5A69218F362A005F288B /* HomeViewController.swift */,
+				C82B5A6B218F6169005F288B /* FavoriteViewController.swift */,
+				C80BDF2E2190BE3E008B29C4 /* SettingsViewController.swift */,
 			);
 			path = MyQuotes;
 			sourceTree = "<group>";
@@ -127,7 +130,7 @@
 			files = (
 				C83EC6AB218EE9890068CD70 /* LaunchScreen.storyboard in Resources */,
 				C83EC6A8218EE9890068CD70 /* Assets.xcassets in Resources */,
-				C83EC6A6218EE9880068CD70 /* Main.storyboard in Resources */,
+				C83EC6A6218EE9880068CD70 /* MyQuotes.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +141,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C83EC6A3218EE9880068CD70 /* SecondViewController.swift in Sources */,
 				C83EC69F218EE9880068CD70 /* AppDelegate.swift in Sources */,
-				C83EC6A1218EE9880068CD70 /* FirstViewController.swift in Sources */,
+				C82B5A6C218F6169005F288B /* FavoriteViewController.swift in Sources */,
+				C82B5A6A218F362A005F288B /* HomeViewController.swift in Sources */,
+				C80BDF2F2190BE3E008B29C4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C83EC6A4218EE9880068CD70 /* Main.storyboard */ = {
+		C83EC6A4218EE9880068CD70 /* MyQuotes.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C83EC6A5218EE9880068CD70 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MyQuotes.storyboard;
 			sourceTree = "<group>";
 		};
 		C83EC6A9218EE9890068CD70 /* LaunchScreen.storyboard */ = {
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94Z6QS6A4W;
 				INFOPLIST_FILE = MyQuotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 94Z6QS6A4W;
 				INFOPLIST_FILE = MyQuotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
